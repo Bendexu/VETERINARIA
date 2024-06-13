@@ -1,0 +1,36 @@
+<div class="container mt-5">
+  <div class="card mb-3">
+      <div class="card-body">
+          <div class="d-flex align-items-center mb-3">
+              <p class="card-title mb-0 mr-3">Eventos pendientes:</p>
+              <div class="d-flex custom-ps ">
+                  <button class="btn btn-icon btn-orange mr-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                          <path d="M8 1a.5.5 0 0 1 .5.5v6.5H15a.5.5 0 0 1 0 1h-6.5V15a.5.5 0 0 1-1 0v-6.5H1a.5.5 0 0 1 0-1h6.5V1.5A.5.5 0 0 1 8 1z"/>
+                      </svg>
+                  </button>
+                  <button class="btn btn-icon btn-gray ml-2 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-1h12V3H2v1z"/>
+                      </svg>
+                  </button>
+              </div>
+          </div>
+          <div class="list-group">
+              <div class="list-group-item list-group-item-action" *ngFor="let evento of eventos">
+                  <div class="d-flex w-100 justify-content-between">
+                      <h6 class="mb-1">{{ evento.fecha }} {{ evento.hora }}</h6>
+                      <div class="icon-buttons">
+                          <div class="icon-edit">
+                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M2 14L3.5 10.5L11.5 2.5L13.5 4.5L5.5 12.5L2 14Z" />
+                              </svg>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="mb-1">{{ evento.descripcion }}</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.circular-button {
+  border-radius: 60px ;
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: none; 
+  background-color: #4ABCAD; 
+  color: white; 
+  cursor: pointer; 
+}
+
+.circular-button:hover {
+  background-color: #3a948f; 
+}
+
+
+
+  

@@ -1,0 +1,17 @@
+<div class="card text-center">
+  <div class="yellow-bg"></div>
+  <div class="white-bg">
+      <div class="img-container">
+          <img class="card-img-top rounded-circle mx-auto d-block" src="https://via.placeholder.com/150" alt="Imagen de {{ mascota.nombre }}">
+      </div>
+      <div class="card-body">
+          <h5 class="card-title mt-3">{{ mascota.nombre }}</h5>
+          <p class="card-text"><strong>Especie:</strong> {{ mascota.especie }}</p>
+          <p class="card-text"><strong>Edad:</strong> {{ mascota.edad }}</p>
+          <p class="card-text"><strong>Sexo:</strong> {{ mascota.sexo }}</p>
+          <p class="card-text"><strong>Raza:</strong> {{ mascota.raza }}</p>
+          <p class="card-text"><strong>Esterilizado:</strong> {{ mascota.esterilizado ? 'Sí' : 'No' }}</p>
+          <p class="card-text"><strong>Propietario:</strong> {{ mascota.propietario }}</p>
+      </div>
+  </div>
+</div>

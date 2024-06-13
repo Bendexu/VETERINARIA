@@ -1,0 +1,31 @@
+<div class="modal fade" id="registroModall" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registroModalLabel">REGISTRO DE VACUNACION</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="vacuna" class="form-label">Vacuna:</label>
+            <input type="text" class="form-control" id="vacuna" placeholder="Ingrese la vacuna">
+          </div>
+          <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha programada:</label>
+            <input type="date" class="form-control" id="fecha">
+          </div>
+          <div class="mb-3">
+            <label for="farmaceutica" class="form-label">Farmacéutica:</label>
+            <input type="text" class="form-control" id="farmaceutica" placeholder="Ingrese la farmacéutica">
+          </div>
+          <div class="mb-3">
+            <label for="info" class="form-label">Información adicional:</label>
+            <textarea class="form-control" id="info" rows="3" placeholder="Ingrese información adicional"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success w-100">Registrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+.container-fluid {
+    margin-left: 0px; 
+    padding: 20px;
+    background-color: #EFF4F7;
+  }
+ 
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content svg {
+  width: 70px; 
+  height: 70px;
+  margin-right: 10px; 
+}
+
+.header-content h2 {
+  color:#8A8A8A;
+  margin: 0;
+  font-size: 30px;
+}
+
+.linea{
+  width: 85%; 
+  border-bottom: 1px solid #8A8A8A;
+}
+
+.border-round {
+  border-radius: 20px; 
+  border: 1px solid #8A8A8A; 
+}
+
+.circular-button {
+  border-radius: 60px ;
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: none; 
+  background-color: #4ABCAD; 
+  color: white; 
+  cursor: pointer; 
+}
+
+.circular-button:hover {
+  background-color: #3a948f; 
+}
+
+.custom-mt {
+  margin-top: -80px; /* Ajusta el valor según lo que necesites */
+}
+
+.custom-ps {
+  padding-left: 10rem; /* Ajusta el valor según tus necesidades */
+}
+
+.btn-warning {
+    background-color: #ECAE2F;
+    border-radius: 60px ;
+    color: white;
+    font-weight: bold;
+}
+
+.card {
+    border-left: 5px solid #ECAE2F;
+    border-radius: 20px ;
+}
+  
+.card-title {
+    color: #ECAE2F;
+    font-weight: bold;
+}
+
+  

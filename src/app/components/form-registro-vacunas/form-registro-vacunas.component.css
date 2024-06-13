@@ -1,0 +1,58 @@
+.circular-button {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.modal-header {
+  background-color: #f0ad4e;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #4ABCAD;
+  border-color: #4ABCAD;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.form-control {
+  border-radius: 50px; /* Para bordes circulares */
+  margin-bottom: 15px; /* Separación entre inputs */
+  background-color: #E7E7E7;
+}
+
+.modal-body .form-label {
+  font-weight: bold;
+  color: #8A8A8A;
+}
+
+.modal-body .form-control {
+  border-radius: 50px; /* Para bordes circulares */
+  margin-bottom: 15px; /* Separación entre inputs */
+}
+
+.modal-body .mb-3:last-child {
+  margin-bottom: 0;
+}

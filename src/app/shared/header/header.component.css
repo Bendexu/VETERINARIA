@@ -1,0 +1,11 @@
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+.custom-header {
+    background-color: #4ABCAD;
+}

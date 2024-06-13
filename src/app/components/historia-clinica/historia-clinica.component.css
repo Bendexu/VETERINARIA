@@ -1,0 +1,46 @@
+.btn-primary {
+    background-color: #F8B732;
+    border-color: #F8B732;
+    color: #fff;
+    border-top-left-radius: 20px; /* Radio de borde superior izquierdo */
+    border-bottom-left-radius: 20px; /* Radio de borde inferior izquierdo */
+    border-top-right-radius: 20px; /* Radio de borde superior derecho */
+    border-bottom-right-radius: 20px; /* Radio de borde inferior derecho */
+    margin-left: 20px;
+  }
+  
+  h5{
+    color:#F8B732 ;
+  }
+
+  .btn-primary:hover {
+    background-color: #F8B732;
+    border-color: #F8B732;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 183, 50, 0.5);
+  }
+  
+  hr {
+    border-top: 2px solid #000;
+  }
+  
+  .container {
+    max-width: 800px; /* Ajusta el ancho máximo según tu preferencia */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .my-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  p{
+    color: #747474;
+  }
+  

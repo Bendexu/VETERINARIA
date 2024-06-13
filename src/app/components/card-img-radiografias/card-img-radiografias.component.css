@@ -1,0 +1,96 @@
+.card-adjunto {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 673px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.card-adjunto-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+
+.card-adjunto-title {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.card-adjunto-title svg {
+  margin-right: 8px;
+}
+
+.card-adjunto-title span {
+  display: block;
+}
+
+.card-adjunto-date {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.card-adjunto-body {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+}
+
+.card-adjunto-body div {
+  text-align: center;
+}
+
+.card-adjunto-body img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-adjunto-body .icon-download {
+  margin-top: 8px;
+  color: #4ABCAD;
+  cursor: pointer;
+}
+
+.card-adjunto-body .icon-download:hover {
+  color: #3a948f;
+}
+
+.icon-delete, .icon-edit {
+  cursor: pointer;
+  margin-left: 8px; /* Space between icons */
+}
+
+.icon-delete svg {
+  fill: #f83232; /* Orange color */
+}
+
+.icon-delete:hover svg {
+  fill: darkorange;
+}
+
+.icon-edit svg {
+  fill: #4ABCAD; /* Aqua color */
+}
+
+.icon-edit:hover svg {
+  fill: #3a948f;
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}

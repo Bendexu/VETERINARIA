@@ -1,0 +1,74 @@
+
+<div class="botones-de-form mt-5">
+<button class="circular-button" data-bs-toggle="modal" data-bs-target="#exampleModal">+ Registrar mascota</button>
+<button class="circular-button col-md-4 mb-3 mb-md-0 " data-bs-toggle="modal" data-bs-target="#registroModal" >+NUEVOREGISTRO</button>
+<button class="circular-button ps-1" data-bs-toggle="modal" data-bs-target="#registroModall">+ Programar vacuna</button>
+<button class="circular-button" data-bs-toggle="modal" data-bs-target="#registroModalll">+ Registrar cliente</button>
+</div>
+
+
+<div class="row ps-5">
+  <div class="col-4">
+  <app-informe-general
+  name="JULIO TORRES TELLO"
+  dni="7874563"
+  phone="9874256563"
+  address="Av. San Martín 409"
+  country="Perú"
+  department="Arequipa"
+  province="Arequipa"/>
+</div>
+</div>
+
+<div class="row ps-5 mt-4">
+  <div class="col-6">
+  <app-eventos-pendientes/>
+</div>
+</div>
+
+<div class="row ps-5 mt-4">
+  <div class="col-6">
+  <app-vacunas-programadas
+  [fecha]="vacuna.fecha" [hora]="vacuna.hora" [nombre]="vacuna.nombre" [farmaceutica]="vacuna.farmaceutica"/>
+</div>
+</div>
+
+
+
+
+<div class="row ps-5 mt-5">
+  <div class="col-6">
+      <app-form-registro-mascotas/>
+  </div>
+</div>
+
+<div class="row ps-5 mt-5">
+  <div class="col-10">
+      <app-historial-vacunacion/>
+  </div>
+</div>
+
+<div class="row ps-5 mt-5">
+  <div class="col-10">
+      <app-card-img-radiografias/>
+  </div>
+</div>
+
+<div class="row ps-5 mt-5">
+  <div class="col-6">
+      <app-form-registro-cliente/>
+  </div>
+</div>
+
+<div class="row ps-5 mt-5">
+  <div class="col-6">
+      <app-form-registro-consultas/>
+  </div>
+</div>
+
+<div class="row ps-5 mt-5">
+  <div class="col-10">
+      <app-form-registro-vacunas/>
+  </div>
+</div>
+

@@ -1,0 +1,153 @@
+/* Estilos personalizados para la visualización de datos */
+.btn-primary {
+  background-color: #F8B732;
+  border-color: #F8B732;
+  color: #fff;
+  border-top-left-radius: 20px; /* Radio de borde superior izquierdo */
+  border-bottom-left-radius: 20px; /* Radio de borde inferior izquierdo */
+  border-top-right-radius: 20px; /* Radio de borde superior derecho */
+  border-bottom-right-radius: 20px; /* Radio de borde inferior derecho */
+  margin-right: 20px;
+}
+
+.ol{
+  color:#F8B732 ;
+}
+
+.btn-primary:hover {
+  background-color: #F8B732;
+  border-color: #F8B732;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 183, 50, 0.5);
+}
+
+hr {
+  border-top: 2px solid #000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 673px;
+  height: 500px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+.card-title {
+  font-size: 1.25em;
+  margin: 0;
+}
+.card-icon {
+  color: red;
+  margin-right: 8px;
+}
+.card-date {
+  font-size: 0.6em;
+  color: #888;
+}
+.card-body p {
+  margin: 8px 0;
+}
+.card-body ul {
+  padding-left: 20px;
+}
+.card-body ul li {
+  list-style: none;
+  margin: 4px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.card-body p {
+  margin: 8px 0;
+}
+.card-body p span {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.circular-button {
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: none;
+  background-color: #4ABCAD;
+  color: white;
+  cursor: pointer;
+}
+
+.circular-button:hover {
+  background-color: #3a948f;
+}
+
+.circular-buttonn {
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: none;
+  background-color: #838383;
+  color: white;
+  cursor: pointer;
+}
+
+.circular-buttonn:hover {
+  background-color: #6e6e6e;
+}
+
+.border-round {
+  border-radius: 20px; /* Ajusta el radio de borde según sea necesario */
+}
+
+
+.form-container {
+  width: 100%;
+  max-width: 450px; /* Ajusta este valor según sea necesario */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-delete, .icon-edit {
+  cursor: pointer;
+  margin-left: 8px; /* Space between icons */
+}
+
+.icon-delete svg {
+  fill: #f83232; /* Orange color */
+}
+
+.icon-delete:hover svg {
+  fill: darkorange;
+}
+
+.icon-edit svg {
+  fill: #4ABCAD; /* Aqua color */
+}
+
+.icon-edit:hover svg {
+  fill: #3a948f;
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}

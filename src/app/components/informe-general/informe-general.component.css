@@ -1,0 +1,36 @@
+.info-card {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: .30rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 18rem; /* Set the width to the size of a standard card */
+    height: auto; /* Height adjusts based on content */
+    font-size: 14px; /* Font size for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for card effect */
+}
+.info-card h5 {
+    font-size: 16px; /* Font size for the header */
+    margin-bottom: 1rem;
+}
+.info-card p {
+    margin: 0.25rem 0;
+}
+.info-card i {
+    color: #007bff; /* Set color for the pencil icon */
+    cursor: pointer;
+}
+
+.icon-edit svg {
+    width: 32px; /* Ajusta el tamaño según sea necesario */
+    height: 32px; /* Ajusta el tamaño según sea necesario */
+    fill: #4ABCAD; /* Color Aqua */
+}
+
+.icon-edit:hover svg {
+    fill: #3a948f;
+}
+
+.custom-ps {
+    padding-left: 13rem; /* Ajusta el valor según tus necesidades */
+  }

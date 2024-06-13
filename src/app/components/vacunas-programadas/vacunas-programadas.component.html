@@ -1,0 +1,35 @@
+<div class="row align-items-center">
+  <div class="col-md-8">
+      <p class="ps-4 fs-5 color">Vacunas programadas:</p>
+  </div>
+  <div class="col-md-4">
+    <button class="circular-button ps-1" data-bs-toggle="modal" data-bs-target="#registroModall">+ Programar vacuna</button>
+  </div>
+</div>
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center">
+      <p class="card-title mb-0">Información sobre programación:</p>
+      <div class="icon-buttons d-flex">
+        <div class="icon-delete mr-2">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L14 14M2 14L14 2" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="icon-edit">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 14L3.5 10.5L11.5 2.5L13.5 4.5L5.5 12.5L2 14Z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 color-s mt-3">
+      <div class="d-flex align-items-center">
+        <i class="bi bi-calendar"></i>
+        <span class="ms-2">{{ fecha }} {{ hora }}</span>
+      </div>
+      <p class="mt-2"><strong>Vacunas:</strong> {{ nombre }}</p>
+      <p><strong>Farmacéutica:</strong> {{ farmaceutica }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #747474;
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  border-left: 5px solid #f0ad4e;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.list-group-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+p {
+  color: #747474;
+}
+
+.icon-edit svg {
+  fill: #4ABCAD; /* Aqua color */
+}
+
+.icon-edit:hover svg {
+  fill: #3a948f;
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon {
+  background-color: transparent; /* No background */
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.btn-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-icon:hover {
+  transform: scale(1.1);
+}
+
+.btn-orange svg {
+  fill: #F8B732;
+}
+
+.btn-gray svg {
+  fill: #6c757d;
+}
+
+.custom-ps{
+  padding-left: 7rem;
+}

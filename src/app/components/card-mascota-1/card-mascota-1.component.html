@@ -1,0 +1,15 @@
+<div class="card text-center">
+  <div class="yellow-bg"></div>
+  <div class="white-bg">
+    <div class="img-container">
+      <img class="card-img-top rounded-circle mx-auto d-block" src="{{ mascota.imagen }}" alt="Imagen de {{ mascota.nombre }}">
+    </div>
+    <h5 class="card-title mt-3">{{ mascota.nombre }}</h5>
+    <div class="card-body">
+      <p class="card-text">{{ mascota.edad }}</p>
+      <p class="card-text">{{ mascota.tipo }}</p>
+      <p class="card-text">{{ mascota.raza }}</p>
+      <a href="/pages/mascotadetalle" class="btn btn-warning">Ver más</a>
+    </div>
+  </div>
+</div>

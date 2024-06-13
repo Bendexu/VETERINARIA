@@ -1,0 +1,73 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #4ABCAD;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #747474;
+  margin: 0;
+}
+
+.mb-3 {
+  padding-left: 10px;
+}
+
+.d-flex {
+  align-items: center;
+}
+
+i.bi-calendar {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.color {
+  color: #F8B732;
+}
+
+.icon-delete svg {
+  fill: #f83232;
+}
+
+.icon-delete:hover svg {
+  fill: darkorange;
+}
+
+.icon-edit svg {
+  fill: #4ABCAD;
+}
+
+.icon-edit:hover svg {
+  fill: #3a948f;
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.color-s {
+  color: #747474;
+}
+
+.mr-2 {
+  margin-right: 8px; /* Ajusta el espacio entre los iconos si es necesario */
+}
+
+.circular-button {
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: none;
+  background-color: #4ABCAD;
+  color: white;
+  cursor: pointer;
+}
+
+.circular-button:hover {
+  background-color: #3a948f;
+}
+
+
